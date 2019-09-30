@@ -18,8 +18,8 @@ function betterFib(n, memo) {
   }
   if (n == 1 || n == 2) {
     result = 1;
-  } else {
-    result = fib(n - 1) + fib(n - 2);
+  } else { 
+    result = betterFib(n - 1, memo) + betterFib(n - 2, memo);
   }
   memo[n] = result;
   return result;
