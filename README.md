@@ -1,6 +1,6 @@
 ## Fibonacci sequence using Dynamic Programming
 
-We all know and love the fibonacci sequence. If you don't, it is the sequence of numbers that are equal to the sum of the previous two numbers, starting with 1,1. So the sequence looks like 1, 1, 2, 3, 5, 8, 13...
+We all know and love the fibonacci sequence. If you don't, it is the sequence of numbers that are equal to the sum of the previous two numbers, starting with 1,1. So the sequence looks like 1, 1, 2, 3, 5, 8, 13... The function we will write returns the nth value of the sequence. 
 
 Writing this recursively seems like a good idea, until you realize that it requires a TON of frames on the stack. Also, it repeats calculations over and over. How can we  make that better? 
 
